@@ -1,0 +1,22 @@
+.about-section-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container {
+    flex: 0 0 auto;
+}
+
+.profile-picture {
+    width: 400px;
+    border-radius: 5%;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

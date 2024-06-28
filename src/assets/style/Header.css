@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .logo-image {
+        animation: spin infinite 20s linear;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .logo-image {
+        width: 30px;
+        height: 30px;
+    }
+    .header-title {
+        font-size: 1.2rem;
+    }
+}
