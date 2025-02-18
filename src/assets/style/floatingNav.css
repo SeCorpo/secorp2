@@ -2,7 +2,7 @@
 .floating-nav {
     position: fixed;
     right: 66px;
-    top: 200px;
+    top: 150px;
     transform: translateY(-50%);
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -44,4 +44,71 @@
     height: 1px;
     background-color: #000;
     margin: 20px 0;
+}
+
+@media (max-width: 1024px) {
+    .floating-nav {
+        right: 20px;
+        top: 100px; /* Moves it slightly up */
+        padding: 10px;
+    }
+
+    .floating-nav ul li {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 768px) {
+    .floating-nav {
+        right: 10px;
+        top: auto;
+        bottom: 20px; /* Moves it to the bottom for better accessibility */
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .floating-nav ul {
+        align-items: center;
+    }
+
+    .floating-nav ul li {
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+
+    .floating-nav ul li a {
+        background-color: rgba(0, 0, 0, 0.1); /* Light background for visibility */
+        display: block; /* Ensures full clickable area */
+        width: 100%;
+        text-align: center;
+    }
+
+    .divider {
+        margin: 10px 0;
+    }
+}
+
+/* Extra Small Screens (Phones) */
+@media (max-width: 480px) {
+    .floating-nav {
+        right: 5px;
+        bottom: 15px;
+        width: 85%;
+        max-width: 250px;
+        padding: 8px;
+    }
+
+    .floating-nav ul li {
+        font-size: 1.1em;
+    }
+
+    .floating-nav ul li a {
+        background-color: rgba(0, 0, 0, 0.15);
+        padding: 8px;
+        border-radius: 6px;
+    }
+
+    .divider {
+        margin: 8px 0;
+    }
 }
