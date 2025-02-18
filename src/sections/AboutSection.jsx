@@ -1,6 +1,6 @@
 
 import AnimatedSection from '../AnimatedSection';
-import pictureSem from '../assets/DSC_0034_NEF_shotwell.jpg';
+import pictureSem from '../assets/DSC_5690_NEF_shotwell.jpg';
 import '../assets/style/AboutSection.css';
 
 const AboutSection = () => {
