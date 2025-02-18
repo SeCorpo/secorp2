@@ -2,15 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom';
 import { scroller, Element } from 'react-scroll';
 import Draggable from 'react-draggable';
-import HelloSection from './sections/HelloSection.jsx';
-import SkillsSection from "./sections/SkillsSection.jsx";
-import AboutSection from './sections/AboutSection.jsx';
-import ContactSection from './sections/ContactSection.jsx';
-import Header from "./sections/Header.jsx";
-import Footer from "./sections/Footer.jsx";
+import HelloSection from './sections/helloSection.jsx';
+import SkillsSection from "./sections/skillsSection.jsx";
+import AboutSection from './sections/aboutSection.jsx';
+import ContactSection from './sections/contactSection.jsx';
+import Header from "./sections/header.jsx";
+import Footer from "./sections/footer.jsx";
 import DecimalClock from "./assets/DecimalClock.jsx";
-import './App.css';
-import './assets/style/FloatingNav.css';
+import './assets/style/app.css';
+import './assets/style/floatingNav.css';
 
 function ScrollToElement() {
     const location = useLocation();

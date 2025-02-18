@@ -1,5 +1,5 @@
 
-import AnimatedSection from '../AnimatedSection';
+import AnimatedSection from '../utils/animatedSection.jsx';
 
 const SkillsSection = () => {
         return (

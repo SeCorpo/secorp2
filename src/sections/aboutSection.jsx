@@ -1,5 +1,5 @@
-import AnimatedSection from '../AnimatedSection';
-import '../assets/style/AboutSection.css';
+import AnimatedSection from '../utils/animatedSection.jsx';
+import '../assets/style/aboutSection.css';
 
 const AboutSection = () => {
     return (
@@ -18,7 +18,7 @@ const AboutSection = () => {
                 </div>
                 <div className="image-container">
                     <a href="https://www.linkedin.com/in/sem-koldewijn/" target="_blank" rel="noopener noreferrer">
-                        <img src="/DSC_5690_NEF_shotwell.jpg" alt="Sem Koldewijn" className="profile-picture" />
+                        <img loading="lazy" src="/DSC_5690_NEF_shotwell.jpg" alt="Sem Koldewijn" className="profile-picture" />
                     </a>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import '../assets/style/Header.css';
+import '../assets/style/header.css';
 import {useRef} from "react";
 
 const Header = () => {
