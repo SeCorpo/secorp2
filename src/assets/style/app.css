@@ -1,8 +1,10 @@
 @font-face {
   font-family: 'DS-DIGIT';
-  src: url('../fonts/DS-DIGIT.TTF') format('truetype');
+  src: url('../fonts/DS-DIGIT.woff2') format('woff2'),
+        url('../fonts/DS-DIGIT.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 .App {
