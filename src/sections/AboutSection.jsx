@@ -1,6 +1,4 @@
-
 import AnimatedSection from '../AnimatedSection';
-import pictureSem from '../assets/DSC_5690_NEF_shotwell.jpg';
 import '../assets/style/AboutSection.css';
 
 const AboutSection = () => {
@@ -20,7 +18,7 @@ const AboutSection = () => {
                 </div>
                 <div className="image-container">
                     <a href="https://www.linkedin.com/in/sem-koldewijn/" target="_blank" rel="noopener noreferrer">
-                        <img src={pictureSem} alt="Sem Koldewijn" className="profile-picture" />
+                        <img src="/DSC_5690_NEF_shotwell.jpg" alt="Sem Koldewijn" className="profile-picture" />
                     </a>
                 </div>
             </div>

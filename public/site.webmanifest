@@ -1,6 +1,10 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Secorp.pro",
+    "short_name": "Secorp",
+    "description": "Secorp Secorp Secorp Secorp Secorp Secorp Secorp Secorp Secorp Secorp.",
+    "start_url": "/",
+    "orientation": "portrait",
+    "lang": "en",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

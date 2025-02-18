@@ -1,5 +1,4 @@
 import '../assets/style/Header.css';
-import logo from '../assets/Logo12.png'
 import {useRef} from "react";
 
 const Header = () => {
@@ -17,7 +16,7 @@ const Header = () => {
     return (
         <header className="header">
             <a href="https://www.secorp.pro" className="logo-link">
-                <img ref={logoImageRef} className="logo-image" src={logo} alt="SeCorp" />
+                <img ref={logoImageRef} className="logo-image" src="/android-chrome-192x192.png" alt="SeCorp" />
             </a>
             <h1 className="header-title" onClick={handleHeaderTitleClick}>
                 SeCorp

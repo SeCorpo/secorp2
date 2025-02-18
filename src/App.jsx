@@ -10,6 +10,7 @@ import Header from "./sections/Header.jsx";
 import Footer from "./sections/Footer.jsx";
 import DecimalClock from "./assets/DecimalClock.jsx";
 import './App.css';
+import './assets/style/FloatingNav.css';
 
 function ScrollToElement() {
     const location = useLocation();
