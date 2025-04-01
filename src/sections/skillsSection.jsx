@@ -4,38 +4,51 @@ import AnimatedSection from '../utils/animatedSection.jsx';
 const SkillsSection = () => {
         return (
             <AnimatedSection>
-                    <h2>Development Skills</h2>
-                    <p>During my internship, I have learned new techniques and gained valuable experience. Working on the project API introduced me to Python. Initially, I was not fond of the language, but over time I came to appreciate its charm.</p>
-                    <p>Within Python, I have become familiar with SQLAlchemy, Pydantic, FastAPI, Poetry, Pip, and the concept of virtual environments. Additionally, I have worked extensively on the front end of the website, gaining extra experience in JavaScript and SCSS.</p>
-                    <p>The project uses Nunjucks templates, which include variables that are populated with content during the build process. Each white-label website has its own CMS project. The content management system uses templates to create variables and delivers the requested variables in JSON format.</p>
-                    <p>For deploying the website, we use Netlify, a service connected to the GitHub repository. It automatically runs tests when git pushes occur and deploys the production branch to the hosting service. Essentially, Netlify serves as a hosting manager.</p>
+                <h2>Development Skills</h2>
 
-                    <h3>Fullstack Development</h3>
-                    <p>During my education, I work in teams on fullstack projects. In these projects, we use Java, JavaScript, CSS, HTML, XML, MySQL, NodeJS, and various frameworks such as Spring Boot, Spring MVC, Spring Security, Express, Bootstrap, and JavaFX. Additionally, I have experimented with C++, Rust, and Python. Some of my projects can be found on GitHub (/secorpo).</p>
-                    <p>My experience with Agile Scrum, target group research/analysis, and user interface design has taught me to collaborate effectively in a dynamic environment. I am always actively involved in group discussions and enjoy contributing to the teams success.</p>
+                <h3>Internship Experience</h3>
+                <p>During my internship, I gained hands-on experience in both backend and frontend development. I worked
+                    extensively on a project API using Python, which initially wasn’t my favorite language—but over
+                    time, I’ve come to appreciate its clarity and power.</p>
 
-                    <h3>Technical Skills</h3>
-                    <ul>
-                            <li>Programming Languages: Java, JavaScript, Python, C++, Rust</li>
-                            <li>Web Development: HTML, CSS, SCSS, NodeJS, Express, Nunjucks</li>
-                            <li>Frameworks: Spring Boot, Spring MVC, Spring Security, Bootstrap, JavaFX</li>
-                            <li>Database Management: MySQL, SQLAlchemy</li>
-                            <li>Deployment and CI/CD: Netlify, GitHub</li>
-                            <li>APIs: FastAPI, RESTful API design</li>
-                            <li>Tools: Poetry, Pip, Virtual Environments</li>
-                    </ul>
+                <p>In this role, I became proficient with tools and libraries such as:</p>
+                <ul>
+                    <li>FastAPI</li>
+                    <li>Pydantic</li>
+                    <li>SQLAlchemy</li>
+                    <li>Poetry</li>
+                    <li>Pip & virtual environments</li>
+                </ul>
 
-                    <h3>Soft Skills</h3>
-                    <p>Soft skills are crucial for effective collaboration and leadership. My experience in team projects and Agile environments has equipped me with the following skills:</p>
-                    <ul>
-                            <li>Communication: Clear and effective verbal and written communication</li>
-                            <li>Teamwork: Ability to work collaboratively in diverse teams</li>
-                            <li>Problem-Solving: Creative and strategic thinking to overcome challenges</li>
-                            <li>Leadership: Guiding and inspiring teams to achieve their best</li>
-                            <li>Time Management: Prioritizing tasks and meeting deadlines efficiently</li>
-                    </ul>
+                <p>I also worked on the frontend using JavaScript and SCSS, integrating with Nunjucks templates
+                    populated with dynamic data from a CMS. Each white-label website had its own CMS project, delivering
+                    JSON-formatted content.</p>
 
-                    <p>We believe that the combination of these skills allows us to deliver high-quality results and drive innovation. Thank you for taking the time to learn about our capabilities. If you have any questions or would like to discuss how we can help you achieve your goals, please feel free to reach out!</p>
+                <p>We used Netlify for deployment, automatically running tests and pushing updates via GitHub. This
+                    CI/CD pipeline ensured a smooth workflow and high reliability.</p>
+
+                <h3>Fullstack Development</h3>
+                <p>In my education and personal projects, I’ve developed fullstack applications using technologies such
+                    as:</p>
+
+                <ul>
+                    <li><strong>Languages:</strong> Java, JavaScript, Python, C++, Rust</li>
+                    <li><strong>Web Development:</strong> HTML, CSS, SCSS, NodeJS, Express, Nunjucks</li>
+                    <li><strong>Frameworks:</strong> Spring Boot, Spring MVC, Spring Security, Bootstrap, JavaFX</li>
+                    <li><strong>Databases:</strong> MySQL, SQLAlchemy</li>
+                    <li><strong>CI/CD & Deployment:</strong> GitHub, Netlify</li>
+                    <li><strong>API Development:</strong> RESTful design, FastAPI</li>
+                </ul>
+
+                <h3>Agile & Collaboration</h3>
+                <p>I have hands-on experience with Agile Scrum, target group analysis, and UI/UX design. These
+                    experiences have helped me:</p>
+                <ul>
+                    <li>Communicate clearly within teams</li>
+                    <li>Prioritize tasks effectively</li>
+                    <li>Contribute to iterative development</li>
+                    <li>Deliver user-centered solutions</li>
+                </ul>
             </AnimatedSection>
         );
 };
