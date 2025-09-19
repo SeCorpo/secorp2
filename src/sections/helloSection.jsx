@@ -1,19 +1,34 @@
-
 import AnimatedSection from '../utils/animatedSection.jsx';
+import { ReactTyped } from 'react-typed';
+import { useState } from 'react';
+import { useTranslation } from "react-i18next";
 
 const HelloSection = () => {
+    const { t } = useTranslation();
+    const paragraphs = t("hello_body").split("\n");
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
     return (
         <AnimatedSection>
-            <h2>Hello and Welcome!</h2>
-            <p>Welcome to my website! I am thrilled to have you here and excited to share what I’ve been working on.</p>
-            <p>This platform is designed to showcase my skills, projects, and passions in software development. Whether
-                you are here to explore my technical capabilities, read about my experience, or simply looking for
-                inspiration, you are in the right place.</p>
-            <p>My mission is to deliver high-quality, reliable, and secure software solutions. I believe in the power of
-                collaboration, continuous learning, and community. This site is a reflection of those values, and I hope
-                it provides insight into my work and who I am.</p>
-            <p>Feel free to explore the sections below and reach out if you would like to connect or collaborate!</p>
+            <h2>{t("hello_header")}</h2>
 
+            {paragraphs.map((text, index) => (
+                <p key={index}>
+                    {index <= currentIndex && (
+                        <ReactTyped
+                            strings={[text]}
+                            typeSpeed={10}
+                            showCursor={false}
+                            onComplete={() => {
+                                if (index === currentIndex && currentIndex < paragraphs.length - 1) {
+                                    setTimeout(() => setCurrentIndex(currentIndex + 1), 300);
+                                }
+                            }}
+                        />
+                    )}
+                </p>
+            ))}
         </AnimatedSection>
     );
 };

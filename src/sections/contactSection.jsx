@@ -1,19 +1,13 @@
-
 import AnimatedSection from '../utils/animatedSection.jsx';
+import { useTranslation } from "react-i18next";
 
 const ContactSection = () => {
+    const { t } = useTranslation();
+
     return (
         <AnimatedSection>
-            <h2>Contact Me</h2>
-            <p>If you’d like to connect, collaborate, or have any questions about my work—don’t hesitate to reach out!
-                I’m open to new opportunities and always eager to grow.</p>
-
-            <p><strong>Email:</strong> <a href="mailto:sem@secorp.pro">sem@secorp.pro</a><br/>
-                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sem-koldewijn"
-                                              target="_blank">linkedin.com/in/sem-koldewijn</a><br/>
-                <strong>GitHub:</strong> <a href="https://github.com/secorpo" target="_blank">github.com/secorpo</a></p>
-
-            <p>Thank you for visiting my site. I look forward to hearing from you!</p>
+            <h2>{t("contact_header")}</h2>
+            <p style={{ whiteSpace: "pre-line" }}>{t("contact_body")}</p>
         </AnimatedSection>
     );
 };
