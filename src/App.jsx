@@ -8,8 +8,8 @@ import Header from "./sections/header.jsx";
 import Footer from "./sections/footer.jsx";
 import './assets/style/app.css';
 import './assets/style/floatingNav.css';
-import ScrollToElement from "./utils/scrollToElement.jsx";
-import FloatingNav from "./utils/floatingNav.jsx";
+import ScrollToElement from "./components/ScrollToElement.jsx";
+import FloatingNav from "./components/FloatingNav.jsx";
 
 
 function App() {

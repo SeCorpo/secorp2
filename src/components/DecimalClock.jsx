@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './style/decimalClock.css'
+import '../assets/style/decimalClock.css'
 
 export default function DecimalClock() {
     const [dtime, setDTime] = useState("10:00:00");

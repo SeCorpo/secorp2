@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import DecimalClock from "../assets/DecimalClock.jsx";
+import DecimalClock from "./DecimalClock.jsx";
 import "../assets/style/floatingNav.css";
-import LanguageSwitcher from "./languageSwitcher.jsx";
+import LanguageSwitcher from "./LanguageSwitcher.jsx";
 
 const FloatingNav = () => {
     const [isMobile, setIsMobile] = useState(false);

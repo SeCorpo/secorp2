@@ -1,4 +1,4 @@
-import AnimatedSection from '../utils/animatedSection.jsx';
+import AnimatedSection from '../components/AnimatedSection.jsx';
 import '../assets/style/aboutSection.css';
 import { useTranslation } from "react-i18next";
 
