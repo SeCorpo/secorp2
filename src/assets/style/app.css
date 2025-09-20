@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'DS-DIGIT';
   src: url('../fonts/DS-DIGIT.woff2') format('woff2'),
-        url('../fonts/DS-DIGIT.TTF') format('truetype');
+  url('../fonts/DS-DIGIT.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -44,18 +44,18 @@
 h2 {
   margin: 0;
   font-size: 2em;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.5em;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-
 
 @media (max-width: 768px) {
   .sections {

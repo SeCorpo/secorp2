@@ -1,0 +1,64 @@
+.skills-body {
+    white-space: pre-line;
+}
+
+/* CV download section */
+.cv-download {
+    margin-top: 1.5rem;
+}
+
+.cv-download h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+/* Buttons row */
+.cv-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap; /* stacks nicely on small screens */
+}
+
+/* Base button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.25s ease, transform 0.05s ease;
+    color: #fff; /* text color for both variants */
+    user-select: none;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* Accessible focus */
+.btn:focus-visible {
+    outline: 3px solid rgba(0, 128, 0, 0.4);
+    outline-offset: 2px;
+}
+
+/* Green variants */
+.btn-primary {
+    background-color: #28a745; /* standard green */
+}
+.btn-primary:hover {
+    background-color: #218838; /* darker green */
+}
+
+.btn-success {
+    background-color: #34c759; /* lighter apple-style green */
+}
+.btn-success:hover {
+    background-color: #28a745; /* match darker shade on hover */
+}
+
+/* Optional: compact on very small screens */
+@media (max-width: 420px) {
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}

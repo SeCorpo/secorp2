@@ -18,7 +18,7 @@ const HelloSection = () => {
                     {index <= currentIndex && (
                         <ReactTyped
                             strings={[text]}
-                            typeSpeed={10}
+                            typeSpeed={3}
                             showCursor={false}
                             onComplete={() => {
                                 if (index === currentIndex && currentIndex < paragraphs.length - 1) {
